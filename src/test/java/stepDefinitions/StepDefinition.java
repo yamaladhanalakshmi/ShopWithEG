@@ -48,7 +48,7 @@ public class StepDefinition extends BaseClass{
 	
 	@When("user clicks on createaccount link")
 	public void user_clicks_on_createaccount_link() {
-		loginPage.clickCreateAccountLink()
+		loginPage.clickCreateAccountLink();
 	}
 	
 	@When("user clicks on createaccount button")

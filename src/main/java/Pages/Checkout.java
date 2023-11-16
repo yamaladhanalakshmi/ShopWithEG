@@ -36,27 +36,6 @@ public class Checkout extends BaseClass{
 	
 	
 	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	public void blackSweaterViewCartLink()
-	{
-		blackSweaterViewCartButton.click();
-	}
+
 
 }

@@ -11,7 +11,7 @@ import io.cucumber.junit.CucumberOptions;
 	features="src\\test\\resources\\features",
     glue="stepDefinitions",
     plugin= {"pretty","html:target/cucumberReport.html"},
-    tags="@tc3"
+    tags="@tc1"
     
 )
 

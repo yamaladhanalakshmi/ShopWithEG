@@ -148,7 +148,7 @@
                 <version>${maven.surefire.version}</version>
                 <configuration>
                     <includes>
-                        <include>**/ParallelRun.java</include>
+                        <include>**/TestRunner.java</include>
                     </includes>
                     <parallel>methods</parallel>
                     <threadCount>2</threadCount>
@@ -158,7 +158,7 @@
                         <property>
                             <name>dataproviderthreadcount</name>
                             <value>2</value>
-                        </property>
+                        </property>-+++++++++
                     </properties>
                 </configuration>
             </plugin>
